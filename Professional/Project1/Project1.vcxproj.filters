@@ -129,11 +129,35 @@
     <ClCompile Include="0.1 친구 추천.cpp">
       <Filter>리소스 파일\Problem</Filter>
     </ClCompile>
+    <ClCompile Include="32. 얼음행성탐사.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="33. 우산창고.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="34. 계통수.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="35. 기지국설치.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="36. 출근길 라디오.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="37. 뉴스알림.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="38. 블록쌓기게임.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="39. 검색엔진2.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
+    <ClCompile Include="40. 공지방송.cpp">
+      <Filter>리소스 파일\Problem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="sample_input.txt">
-      <Filter>소스 파일</Filter>
-    </Text>
     <Text Include="최대최소값 찾기.txt">
       <Filter>리소스 파일\Input</Filter>
     </Text>
@@ -230,5 +254,27 @@
     <Text Include="친구 추천.txt">
       <Filter>리소스 파일\Input</Filter>
     </Text>
+    <Text Include="얼음행성탐사.txt">
+      <Filter>리소스 파일\Input</Filter>
+    </Text>
+    <Text Include="계통수.txt">
+      <Filter>리소스 파일\Input</Filter>
+    </Text>
+    <Text Include="기지국설치.txt">
+      <Filter>리소스 파일\Input</Filter>
+    </Text>
+    <Text Include="우산창고.txt">
+      <Filter>리소스 파일\Input</Filter>
+    </Text>
+    <Text Include="출근길 라디오.txt">
+      <Filter>리소스 파일\Input</Filter>
+    </Text>
+    <Text Include="sample_input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+    <Text Include="뉴스알림.txt" />
+    <Text Include="블록쌓기게임.txt" />
+    <Text Include="검색엔진2.txt" />
+    <Text Include="공지방송.txt" />
   </ItemGroup>
 </Project>

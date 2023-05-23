@@ -1,87 +1,136 @@
-#include <string>>
+#include <unordered_map>
+#include <string>
+#include <algorithm>
+#include <memory.h>
 #include <vector>
 using namespace std;
 
-const int MAX = 11001;
+const int DIV = 1000;
 
 struct Node {
+	int level;
 	int parent;
-	int time;
-	string str;
-}node[MAX];
-int nodeCnt;
+	vector<int> child;
+}node[12005];
 
-int N;
-vector<int> v[11];
-
-int Find(int id) {
-	return id == node[id].parent ? id : node[id].parent = Find(node[id].parent);
-}
-
-void Union(int x, int y) {
-	x = Find(x), y = Find(y);
-	node[y].parent = x;
-}
-
-void init(int N)
-{
-	::N = N;
-	nodeCnt = 0;
-	for (int i = 5; i <= N; i++) {
-		v[i].clear();
+struct Range {
+	int arr[DIV];
+	int lazy;
+	void init() {
+		memset(arr, 0, sizeof(arr));
+		lazy = 0;
 	}
-}
-
-void process(int mTime) {
-	for (int i = 5; i <= N; i++) {
-		for (auto it = v[i].begin(); it != v[i].end();) {
-			if (node[*it].time <= mTime) {
-				it = v[i].erase(it);
-			}
-			else {
-				++it;
-			}
+	void update(int start, int end, int val) {
+		if (start == 0 && end == DIV - 1) {
+			lazy += val;
+			return;
 		}
-	}
-}
 
-int generateString(int mTimestamp, int mLifespan, int mLen, char mStr[])
+		for (register int i = start; i <= end; i++)
+			arr[i] += val;
+	}
+}R[1005];
+
+unordered_map<string, int> um;
+int ncnt;
+
+void init(char mAncestor[], int mDeathday)
 {
-	process(mTimestamp);
+	for (register int i = 0; i < 1005; i++) R[i].init();
+	for (register int i = 1; i <= ncnt; i++) node[i].child.clear();
+	um.clear();
+	ncnt = 0;
 
-	Node& n = node[++nodeCnt];
-	n.parent = nodeCnt;
-	n.time = mTimestamp + mLifespan;
-	n.str = mStr;
-	
-	for (int i = 5; i <= N; i++) {
-		for (auto& j : v[i]) {
-			Node& n2 = node[j];
-			for (int k = 0; k < mLen - 2; k++) {
-				if (n2.str.find(n.str.substr(k, 3)) != string::npos) {
-					Union(nodeCnt, j);
-					break;
-				}
-			}
-		}
+	um[mAncestor] = ++ncnt;
+	node[ncnt].level = 0;
+	node[ncnt].parent = -1;
+
+	int end = mDeathday / DIV;
+	for (register int i = 0; i <= end; i++) {
+		if (i == end)
+			R[i].update(0, mDeathday % DIV, 1);
+		else
+			R[i].update(0, DIV - 1, 1);
 	}
-
-	for (int i = 5; i <= N; i++) {
-		for (auto& j : v[i]) {
-			if (Find(j) == nodeCnt) {
-				node[j].time = n.time;
-			}
-		}
-	}
-
-	v[mLen].emplace_back(nodeCnt);
-
-	return v[mLen].size();
 }
 
-int checkString(int mTimestamp, int mLen)
+int add(char mName[], char mParent[], int mBirthday, int mDeathday)
 {
-	process(mTimestamp);
+	int par = um[mParent];
+	int cur = um[mName] = ++ncnt;
 
-	return v[mLen].size();
+	node[cur].level = node[par].level + 1;
+	node[cur].parent = par;
+	node[par].child.push_back(cur);
+
+	int start = mBirthday / DIV;
+	int end = mDeathday / DIV;
+	for (register int i = start; i <= end; i++) {
+		if (i == start) {
+			if (start == end)
+				R[i].update(mBirthday % DIV, mDeathday % DIV, 1);
+			else
+				R[i].update(mBirthday % DIV, DIV - 1, 1);
+		}
+		else if (i == end)
+			R[i].update(0, mDeathday % DIV, 1);
+		else
+			R[i].update(0, DIV - 1, 1);
+	}
+
+	return node[cur].level;
 }
+
+int distance(char mName1[], char mName2[])
+{
+	int id1 = um[mName1];
+	int id2 = um[mName2];
+	if (node[id1].level > node[id2].level)
+		swap(id1, id2);
+
+	int dist = 0;
+	while (node[id1].level != node[id2].level) {
+		dist++;
+		id2 = node[id2].parent;
+	}
+
+	while (id1 != id2) {
+		dist += 2;
+		id1 = node[id1].parent;
+		id2 = node[id2].parent;
+	}
+
+	return dist;
+}
+
+int count(int mDay)
+{
+	return R[mDay / DIV].arr[mDay % DIV] + R[mDay / DIV].lazy;
+}
+
+
+
+
+
+
+
+
+//void init(char mAncestor[], int mDeathday)
+//{
+//	return;
+//}
+//
+//int add(char mName[], char mParent[], int mBirthday, int mDeathday)
+//{
+//	return 0;
+//}
+//
+//int distance(char mName1[], char mName2[])
+//{
+//	return 0;
+//}
+//
+//int count(int mDay)
+//{
+//	return 0;
+//}
