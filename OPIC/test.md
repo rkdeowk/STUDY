@@ -88,11 +88,22 @@
 - 나 00해~ 아마… 한(once or)두번 (twice)정도? a(일주일week/한달month/일년에year) 그게 다르지depending on 상황(situation)에 따라..… 근데 만약 (if)내가have more 시간이 더 많다면? 물론 나 wanna enjoy 더(more) 자주(often) 하고싶지.. like… 매일! But 내가 시간이 많이 없어…. 그래서 나 해 최소 한두번은~~ 
 
 ### Where
-- 내가 좋아하는 (장소)는
-- 가까워 집이랑.. 한.. 10분? 걸려 걸어서… 좋아! 가까우니까! – 더 자주 갈 수 있어 원할때마다 특히 집에서 심심할 때  – 오래 걷지 않아도 되서 – 쉽고 빠르게 갈 수 있어~  
-- 시내에 있어 – 한.. 20분? 걸려 버스타고… - 아, 근데 좋은게 뭐냐면, 그게 버스정류장이랑 가까워.. – 울 집도 가깝고 버스정류장이랑…. 내가 버스타기만하면? 쉽고 빠르게 갈 수 있어~ 
-- 엄청 멀어 집에서.. – 한… 3~4시간 ?걸려 차타고 – 근데 휴일or주말에 차막히면? 더 걸려! 자주 못가 원하는만큼 – 너무 머니까! 가는길에 너무 피곤해 – 막상 도착하면? 되게 좋아! 시간가치 있어! 
-- 나 00해~ 집에서 – 좋고 편해! – 내가 나갈 준비를 하지 않아도 되 – 예를들어.. 씻고.. 옷갈아입고 등등..???? – 시간 돈 절약할 수 있어 뭔가를 집에서 하면 – 너무 편해!
+- My favorite 장소 or the 장소 + where I (like to go / love to go / usually go / often go / sometimes go) is located~ (생각..)
+- 가까워 to집이랑.. 한.(얼마나걸리더라…) 10분? 걸려 on걸어서(foot)which is좋아! 왜냐면 그거 가까우니까! –내가can go there 더(more) 자주(often) 갈 수 있어 whenever 내가 원할때마다….. 특히 (especially when I feel) + bored at 집에서 심심할 때  – I don’t have to + walk + for오래 걷지 않아도 되서 – I can go there쉽고(Easily) & 빠르게 갈 수 있어~
+- In 시내에 있어 – 한.(about………….생각). 20분? 걸려 by taking 버스타고… - 아, 근데 좋은게 뭐냐면(what’s good + about the place) is……. 그게 가까워 버스정류장이랑.. – 울 집 is또한(also) 가깝고 버스정류장이랑…. Once 내가 take 버스타기만하면? I can go there쉽고(Easily) & 빠르게 갈 수 있어~
+- 엄청 멀어 from 집에서.. – 한… 3~4시간 ?걸려 by차타고 – 근데 when it’s on 휴일or주말에.. if 차막히면(Traffic jam + is heavy)? It takes 더(more) 걸려! Like… (5시간? 6시간)? 내가 못가 as자주(often) as내가 원하는만큼 – 그거 too너무 머니까! 나 너무 피곤해 가는길에(on my way+there) – 근데 once내가 도착만하면? 좋아! & totally worth of시간(time)가치 있어!
+- 나 00해~ at집에서 which is 좋고 편해! –왜냐면.. 내가 don’t have to + be bothered + to get ready귀찮게 나갈 준비를 하지 않아도 되(to go out) – 예를들어..taking a 샤워하고..and..getting 옷갈아입고(dressed up) and 등등(so on)..???? –내가 can save 시간 & 돈 절약할 수 있어 if I do sth 뭔가를 at집에서 하면 which is 너무 (형용사)해
+
+
+- Go to 장소명
+- Go there
+- Once 주어 동사: 주어가 동사하기만 하면
+- Waste of 무엇: 무엇의 낭비
+- Worth of 무엇: 무엇의 가치가 있다
+- Bother: 귀찮게 하다
+- Be (feel) bothered: 귀찮음을 느끼다, She always bothers me. So i feel bothered
+- Don't have to 동사원형 + Be (feel) bothered: 귀찮음을 느끼다
+- Don't have to be bothered to 동사: 굳이 귀찮게 ~하지 않아도 된다
 
 ### Who
 - Like to / try to / tend to (+ v)
@@ -103,6 +114,55 @@ become one of우선순위가 되더라고(my top priorities)…… 그래서 내
 - 나 00해~ 혼자! Which is 너무(definitely) 좋고 & 편해! – 왜냐면 내가 don’t have to + care다른(other)사람을(people) 신경쓰지 않아도 되니까.. I don’t have to 방해 받지 않아도 되고(be 
 disturbed) – 내가can do everything + that i 원하는걸(want) 다 할 수 있어…under내 컨트롤하에… - I can have나만의(my own) 온전한(me) 시간도 가질수 있어~
 
+### Why
+- Like to / try to / tend to (+ v)
+- 나 00해~ to release my스트레스 풀기 위해서.. 그니까 그게 진짜 최고야(the best way) to + get rid of 스트레스 풀기에는! 실은.. 요즘(nowadays =these days)…?? 나 get… a lot~~ of스트레스 많이 받는데 그게주로usually…… because of..(생각…)… 일이랑.. 특히 because of 이(this) 시험떄문에 ㅋㅋㅋㅋ… 그래서 when I get 스트레스 터지면(Stressed out)? 나 00즐겨and.. 이후에는 ? I feel like.. all of 스트레스가 are다 (totally)날아거든(gone)!
+- 나 00해~ 왜냐면… 가끔(sometimes)when 내가 기분이 다운될 때? 그게can cheer 내(me) 기분 업(up) 시켜줄 수 있어 – 실은… 가끔.. when내가 feel…좀(kind of).. 기분이 다운.or…. 우울… or… feel like… + hit the너무 안좋을 때(bottom)? I enjoy it바로(right away) 즐겨 – 이후? I feel기분이 훨씬(much) 좋아져(better) + than 전보다.. I do it whenever 내가 feel기분나쁠때마다 해~
+- 나 00해~ 왜냐면…(생각…) 솔직히(honestly) it’s not 특별한이유는 아니고 ㅋㅋ it is just…걍 so much 재밌어! 시간이(times) goes by엄청 빨리가 whenever 내가 그거 즐길때마다…./////// 진짜로 (seriously) 그게(it) 확 날아가버려(flies by!)!!! 가끔… when I feel심심하거나(bored) or have nothing to 할거(do) 없을 때? 내가 can kill + my시간 때울 수 있어 .. 좋아!
+- (운동) 나 00해~to become 건강해지기위해서.. I mean.. to maintain my건강(health)유지를 하기 위해서… 실은… 전에는..? I used to be약했어(weak)… 왜냐면.. I used to feel 쉽게(easily) 피곤(tired)했었거든.. – 근데 지금? 나 don’t get(=feel)피곤(Tired)하지 않아 as쉽게(Easily)as전만큼(Before).. – I feel like.. I have become 건강해지고(er)and 강해진거같아(er)~ I try to do it꾸준히(regularly) 해~
+
+- 건강한 healthy
+- 건강 health
+
 ### What kinds(어떤 + 종류)
 - 실은.. 나 like 모~든(all kinds of) (주제)를 좋아해.. 왜냐면 내가 am not그닥(that!) 까탈스럽진않거든(picky) in case of (주제)면에서는.. 근데 만약(if) 내가 have to+ choose + only하나만(one)고르자면? 제일좋은건(my favorite is….) (생각3초) ( ++) 야~
 - 솔직히(honestly) 나 잘 몰라 어떤(what kinds of)(주제)을 다른(other)사람들이(people) 좋아하는지(like..) – 왜냐면 내가have never 물어본적이 없어(asked)  –and 당연히(obviously) 사람마다 가지고 있잖아 다른(different)취향(taste)을.. – 근데 나같은경우(in my case)? 난 like…(생각3초) (장르)가 좋아
+
+## 돌발
+
+### 선택 주제
+- 영화, 공연, 콘서트, 수영, 자전거, 조깅, 걷기, 쇼핑, 집휴가
+
+### 돌발 주제
+- 도서관, 외식(레스토랑), 약속, 테크놀로지, 집안일, 독서, 호텔, etc.
+
+### 돌발 커버 컨셉
+
+- 돌발커버컨셉 : 주제관련 1,2문장 + 내 얘기 + 행동or장소 +@ (육하원칙) 
+
+### Script
+- 질문: Geographical feature ??? 어려워.. 근데.. 내 생각에… 우리나라에 산이랑 바다가 되게 많아서 좋은거같아… 좋아! 왜냐면 나 역시 산에 가는거 좋아하거든…
+- 내 생각에…. 버스랑 and서브웨이가 되게 편한거같아 우리나라에.. 왜냐면 they are.. 싸고.. 빠르거든….. they go everywhere! . + 근데 나같은경우.. 난.. 주로……..(생각..)take버스를 타는거같아.. 특히(Espeically when I go to my) 좋아하는(어디)를 갈 때.. 왜냐면 the 장소   + where I (like to go) is located In 시내에 있어 – 한.(about………….생각). 20분? 걸려 by taking 버스타고… - 아, 근데 좋은게 뭐냐면(what’s good + about the place) is……. 그게 가까워 버스정류장이랑.. – 울 집 is또한(also) 가깝고 버스정류장이랑…. Once 내가 take 버스타기만하면? I can go there쉽고(Easily) & 빠르게 갈 수 있어~ 좋아~ …... by the way.. I really like to go there…by bus… +  + when 내가 have 쉴 때(days off)… 그니까(I mean) 그건 주로 주말이야… 당연히 토요일 일요일에.. 왜냐면… 내가 일을 안해도 되니까! I have a lot of + free시간이 많아!! to do + what I 원하는거(want) 할 수 있는.. 반면에 (but) during the주중에는? 나 am되게 바빠 일하느라ing(busy + 동사ing : 동사를 하느라 바쁘다)…. 요즘? 나 일하거든until 늦게까지..like.... 한… 10시까지? Which is 최악이야…
+ 
+- Popular food..?? there’s a lot of tasty food in my country…… but..  솔직히(honestly) 나 잘 몰라 어떤(what kinds of)(주제)을 다른(other)사람들이(people) 좋아하는지(like..) – 왜냐면 내가have never 물어본적이 없어(asked)  –and 당연히(obviously) 사람마다 가지고 있잖아 다른(different)취향(taste)을.. – 근데 나같은경우(in my case)? 난 like…(생각3초) (BBQ)가 좋아~ So.. I personally like to go to my favorite 레스토랑 to eat out my favorite food ~ 가족들이랑…including 동생들 엄마랑 – 왜냐면 뭐랄까(how can I say)..… as내가 got나이 먹으면서.. spending time with 가족 시간이 seems 좀(more) 더 중요한거 같아..그니까 그게has become one of우선순위가 되더라고(my top priorities = lists)…… 그래서 내가 노력해 시간을 보내려고 with가족들과 as often as최대한(possible) 자주. 나 00해~ to release my스트레스 풀기 위해서.. 그니까 그게 진짜 최고야(the best way) to + get rid of 스트레스 풀기에는! 실은.. 요즘(nowadays =these days)…?? 나 get… a lot~~ of스트레스 많이 받는데 그게주로usually…… because of..(생각…)… 일이랑.. 특히 because of 이(this) 시험떄문에 ㅋㅋㅋㅋ… 그래서 when I get 스트레스 터지면(Stressed out)? 나 00즐겨and.. 이후에는 ? I feel like.. all of 스트레스가 are다 (totally)날아거든(gone)!
+ 
+- Household chores…??? Actually I don’t like it.. but.. sometimes… uh.. I try to do…. Some…. Cooking 아내랑… 한….. It has been 1년 &반?? 정도 된거같은데 that우리가got 결혼한지.. but그게 여전히(still) 좋은 데이팅코스야 whenever우리가 spend 시간을 함께(together) 보낼때마다…but..  솔직히(honestly) 난don’t like it 그걸 as much as 와이프만큼은 안좋아해 ㅋㅋㅋ.. 그래도 I try to do it 같이(together) 하려고 노력해 for 와이프 위해서~(사랑하니까~) 나 00해~ at집에서 which is 좋고 편해! –왜냐면.. 내가 don’t have to + be bothered + to get ready귀찮게 나갈 준비를 하지 않아도 되(to go out) – 예를들어..taking a 샤워하고..and..getting 옷갈아입고(dressed up) and 등등(so on)..???? –내가 can save 시간 & 돈 절약할 수 있어 if I do sth 뭔가를 at집에서 하면 which is 너무 (형용사)해
+
+
+## 시간순 묘사
+
+### 선택 주제
+- 영화, 공연, 콘서트, 수영, 자전거, 조깅, 걷기, 쇼핑, 집휴가
+
+### 돌발 주제
+- 은행, 외식, 집개선활동, 호텔, 분리수거/재활용 etc.
+
+### 키워드
+- Before/ after, typical day(=normal day = usual day / typically = normally = usually), process, from beginning to the end, in the exact order
+
+### Script
+- what내가 먼저(firstly) 하는건(do) once I decide to enjoy 00즐기기러 맘먹으면…(생각)… 솔직히 there is딱(no) 정해진(set) 순서(order)같은데 없는데.. 근데 if I 말하자면(have to say…) (뭐하더라…)..i will start… from searching 관련(related)정보를 찾아봐 on the 인터넷으로 예를들어.. 리뷰라던지.. 혹은.. if there are any 관련 클립들이 있는지on 유튜브에..and 등등(so on)…to choose the 가장(best)좋은거(one) 고르려고 ㅋㅋ
+ 
+- when내가(find = search = look for) 정보를 찾거나..or access 인터넷 접속할때는..? 주로(생각) I use my스마트폰을 사용해 than using my컴터보단.. 왜냐면… 그게 어..당연히(obviously).. portable하잖아~ 그니까.. 내가 항상 가지고 있어 내 스마트폰을in 내 손안에…like…24-7.. but..반면에(on the other hand) 컴퓨터는is..(생각…)내가 귀찮게 그게 있는곳에 가야되서(have to be + bothered + to go + where it is) and 켜야되(turn it on)… 실은.. 요즘… 나 do 거의 모든걸 with my스마트폰으로 해.. 예를들면…..watching 유튜브도 보고..playing some 게임도 하고.. 등등(so on)..?? (나 게임하는거좋아해 스마트폰으로 + 육하원칙1개) To (find = search = look for) 정보찾기위해서는.. 음…  가끔.. I access 네이버도 접속하고,and.. 아 근데 대부분(mostly) I access 구글에 접속한다 왜냐면.. as너도 알다시피 그게…like.유명한 웹사이트잖아 전 세계적으로(globally).. which means… 내가can get 다양한 정보들을 얻을 수 있어 from all 전(over the) 세계의(world).. 그니까 there’s 진짜(tons of)정보가 많다는 거지… so that I can find information 쉽고 빠르게 정보 찾을 수 있고.. 난 항상 access구글 접속해when I surf the 인터넷서핑할땐.. (난 like to surf the internet + 육하원칙1개)
+
+- 나 go to  (장소)에 가서and…(주제)를 즐겨.. 그 이후에는.. (생각)... 그게 달라(different) depending on 상황(situation)에따라… 뭐 … 가끔 I go to cafe 근처(nearby) 카페가거나.. 아니면 뭐 I just get back home바로(right away) 집에 오고… 
