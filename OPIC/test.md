@@ -165,4 +165,79 @@ disturbed) – 내가can do everything + that i 원하는걸(want) 다 할 수 �
  
 - when내가(find = search = look for) 정보를 찾거나..or access 인터넷 접속할때는..? 주로(생각) I use my스마트폰을 사용해 than using my컴터보단.. 왜냐면… 그게 어..당연히(obviously).. portable하잖아~ 그니까.. 내가 항상 가지고 있어 내 스마트폰을in 내 손안에…like…24-7.. but..반면에(on the other hand) 컴퓨터는is..(생각…)내가 귀찮게 그게 있는곳에 가야되서(have to be + bothered + to go + where it is) and 켜야되(turn it on)… 실은.. 요즘… 나 do 거의 모든걸 with my스마트폰으로 해.. 예를들면…..watching 유튜브도 보고..playing some 게임도 하고.. 등등(so on)..?? (나 게임하는거좋아해 스마트폰으로 + 육하원칙1개) To (find = search = look for) 정보찾기위해서는.. 음…  가끔.. I access 네이버도 접속하고,and.. 아 근데 대부분(mostly) I access 구글에 접속한다 왜냐면.. as너도 알다시피 그게…like.유명한 웹사이트잖아 전 세계적으로(globally).. which means… 내가can get 다양한 정보들을 얻을 수 있어 from all 전(over the) 세계의(world).. 그니까 there’s 진짜(tons of)정보가 많다는 거지… so that I can find information 쉽고 빠르게 정보 찾을 수 있고.. 난 항상 access구글 접속해when I surf the 인터넷서핑할땐.. (난 like to surf the internet + 육하원칙1개)
 
-- 나 go to  (장소)에 가서and…(주제)를 즐겨.. 그 이후에는.. (생각)... 그게 달라(different) depending on 상황(situation)에따라… 뭐 … 가끔 I go to cafe 근처(nearby) 카페가거나.. 아니면 뭐 I just get back home바로(right away) 집에 오고… 
+- 나 go to  (장소)에 가서and…(주제)를 즐겨.. 그 이후에는.. (생각)... 그게 달라(different) depending on 상황(situation)에따라… 뭐 … 가끔 I go to cafe 근처(nearby) 카페가거나.. 아니면 뭐 I just get back home바로(right away) 집에 오고…
+
+
+
+## 과거 비교
+
+### 선택 주제
+- 영화, 콘서트, 공연, 은행, 쇼핑몰, 레스토랑, 동네, 집, 호텔
+
+### 돌발 주제
+- 사람들 쇼핑 방식, 집 휴가 보내는 방식, 건강 유지 방식, 옷-패션, 교통수단, TV show, life style, 날씨 등
+
+### 키워드
+- past, before
+- current, today, now
+- how different, changed/developed, progress
+- over time / over the years
+
+### Script
+어… changes in (주제)변화…….? 이거 너무(too)어렵다(to)대답하기.. 왜냐면… 내가 잘 몰라 much about 그 쪽(that)분야(field)를 그니까(I mean = which means)… 내가 have never 생각을 해본적이 없어(thought about)how (주제)가was 어땠는지(like) in the과거에…compared to the ones 지금(now)이랑 비교해서… 생각좀(let me think…)….. 실은..내가 don’t work in그쪽분야(that field)에 일하는게 아니라서… 많이는 알지 못하는데(much about it)..… but만약(if) 대답을 해야한다면..? 그건has been…(생각). 아마(probably)… 좋아졌겠지..? 당연히(obviously) than 전보다는..
+
+왜냐면… 전에는?? 내가 had to + go to (주제관련장소)에 가야만 했었어.. 그니까(I mean) whenever 내가 needed to (주제관련단어들)을 하기 위해서는which was 되게(definitely) 불(in)편했지.. 왜냐면.. … 시간이was 제한적이고(limited).. 그리고 내가had to set aside 시간을 따로 빼놓고for it..and.. 결국(eventually) I had to 가야 하니까.. 그리고 만약(if) 거기에(there were) 기다리는 사람들이 많으면( many + people + 동사ing : 동사를 하는사람들)..???? 나도 also had to기다려야 했어 for 오랜시간.. which was되게 지치고(tiring)… & waste of 시간낭비였지
+
+근데 지금은..? 내가 (장소)에 갈 필요가 없어~~ 왜냐면.. (with / by)스마트폰으로.? 내가can do 거의 모든걸 할 수 있거든.. 왜냐면..there are tons of 관련(Related)어플리케이션들이 굉장히 많은데which 나도 have이미(already) 다운받았어.. 그래서 내가can + (주제관련단어들)할 수 있어….there’s no need to 기다릴 필요도 없고….which can save up my시간 절약할 수 있어 thanks to 기술발전(development)덕분에
+
+어쩄든.. 잘은 모르지만…but.. how to + deal with (주제)서비스를 다루는 법이has been 훨씬 좋아졌어~ 
+
+- 은행(bank) – send money or check my account / 옷 (shopping mall) – buy clothes or check the price
+- 도서관(library or book store) – buy or read books / get some information about books
+- 대중교통(airport or train station) – book the tickets in advance or check the time table
+
+
+
+## 장소 묘사
+
+### 선택 주제
+- 영화, 콘서트, 공연, 은행, 공원, 해변, 수영장, 쇼핑몰
+
+### 돌발 주제
+- 도서관, 레스토랑, 지형, 집, 동네, 집 개선활동, 호텔 등
+
+### 키워드
+- looks like, describe the 장소, what can you see(find), where, located 등
+
+### Script
+도미노 피자 집근처
+집묘사 : 어 우리집??? Actually there’s nothing special… I just live in 서울 city in an apartment with my wife.. and…. as I told you… nothing special… but.. I really like my house. Because...
+
+1) 행동 => it is so comfortable and cozy..so.. I like to stay at home and enjoy 어떤행동+@
+2) 장소 => there are so many good places near my house in my 네이버후드.. like +@+@+@+@ so on??? And.. among them..?
+
+어…. 내가 like to + go to (장소)에 가는거 좋아해.. 왜냐면.. 뭐.. 당연히(obviously) ㅋㅋ 내가 do!!! Like to enjoy (행동)를 좋아하니까~~~ 그래서 there is a place + where 내가 특히(especially go often) 자주가는곳이 있어 whenever I feel like + enjoying(동사ing) (행동)가땡길때마다…. Which is called (상호명) 인데 .. 내가 ‘ve started to go there거기 가기 시작한게since…(생각…) 아마…. 어.. 그게has been.. about 한.. 5년정도 되었나..??? 왜냐면.. like 내가 말했다시피(I said) 내가 do! Love to enjoy진짜 좋아해 (행동)을.. 그리고 그게 the 가장(most) 유명하고 & the큰 곳이라서(biggest place) in울 동네에서(my neighborhood).. 그래서 뭐… like..자연스럽게(naturally) 그게 has become one of 내가 좋아하는 장소(favorite go to places)중 하나가 되었지
+
+There are 몇가지 이유가 있어 + 왜(why) 내가 거길좋아하는지(like the place)…우선…what I like 가장 좋은건(the most) is… 그 (장소)자체가(itself) is 되게 깔끔하고 & 관리가 잘 되어있어(well-maintained)..그니까 every time내가 거기 갈때마다(go there)..everything in there 거기안의 모든것들이.. like.. 화장실이나 ( + 고유의 것들 +@) are 다(all) 관리가 잘 되어있어(well-maintained)..… 아마…..i guess 거기 스탭들이must be되게(very) 열심히(hard) at maintaining the 장소 관리하나봐.. 그래서 you know what i mean.. it’s the perfect place to enjoy (행동)을 즐기기도 최적의 장소야
+
+그리고.. 또the other thing..좋은건(That I like + about the place) is….… 음… 아, 되게 좋은곳들이 많아 + 그 근처에(around it) + where I can go or가볼만한(drop by).. 예를들어 좋은 ( +@+@) 등등? Which is 되게 좋아~ 왜냐면.. 가끔 when내가 have some spare시간이 좀 있으면? 내가 can drop by… one of 그 중 (that place)한군데 들려서.. 예를들어(장소)?? to enjoy (행동) at 한번에(once) after (행동)이후에… 좋아~
+
+
+
+## 특별 경험
+
+### 선택 주제
+- 영화, 콘서트, 공연, 공원, 해변, 조깅, 자전거, 걷기, 수영, 쇼핑, 집 휴가
+
+### 돌발 주제
+- 도서관, 외식(레스토랑), 약속, 지형, 명절, 휴대폰, 테크놀로지, 집, 동네, 집 개선활동, 호텔, 어렸을때(명절/집안일) 등
+
+### 키워드
+- memorable, memory, remeber, experience, happened, event, incident
+
+### Script
+실은.. 이거 니가말한거랑 똑같진않은데… 그거관련 한가지 안좋은경험이 떠오른다… 왜냐면 그날 내 하루가 완전망가졌거든 예상치 못한 문제들땜에.. 무슨일이냐면 + 그때.. 스마트폰 액정이 깨진거야.. 왜냐면.. 당연히 내가 실수로 떨어트렸거든 땅에…실은.. 내가 그런실수를 자주 하진 않아.. 그니까 거의 안하는데 그때는.. 아마… 내가좀.. 정신이 없었나..? 아, 맞아 그때 내가 급했거든 나가느라.. 그래서 그게…. 그냥 미끄러진거야 내 손에서.. 그래서 주웠는데 산산조각 났더라고..
+
+근데.. 문제는 그때 내가 약속이 있어서 .. 그니까 내가 친구를 만나서 (행동)하기러 되어있어서 급하게 나가던 참이었는데.. 그 일이 발생한거야.. 그래서 내가 약속은 지켜야하니까… 버스를 탔어 (장소)에 가려고…근데 설상가상.. 비가 엄청오는거야.. 게다가 그게 러쉬아워라서.. 차가 엄청 막히더라고… 그니까 평소엔 30분걸리는데 그날은 한.. 1시간? 넘게 걸린거같아… 근데 친구한테 전화도 못했어 늦는다고 말하기위해서.. 폰이 고장났으니까! 할 수 있는게 아무것도 없었지
+
+그래서 결국 내가 (장소)에 도착했을땐..?????? 친구는… 가버렸더라고… 이해할만했어.. 내가 아무연락없이 늦었으니까.. 그리고 시간도 너무 지체가 되버린거야 (행동)을 즐기기에도.. 그래서 결국 수리센터 가서 수리했지 (행동)대신에…
