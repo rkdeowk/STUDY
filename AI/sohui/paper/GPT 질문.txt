@@ -1,0 +1,36 @@
+1. FDC 데이터
+1059 x 216 fdc 데이터가 있어
+모두 숫자형 데이터야
+
+2. Wafer defect 이미지
+1059 x 128 x 128 wafer defect 이미지 데이터가 있어
+
+참고로 Wafer defect 판정 여부는 wafer defect이 외곽 부분에 몰려 있는지로 판단해
+단어로는 scratch라고 해
+
+1, 2번 데이터를 이용해서 딥러닝 모델을 학습 시키고 싶어
+1) FDC 데이터를 이용하여 Wafer defect 이미지 예측
+2) 예측한 Wafer defect 이미지 불량/정상 분류
+
+이걸 딥러닝 모델로 구현하고 싶은데 어떻게 하면 좋을까?
+파이썬으로 구현해줘1. FDC 데이터
+1059 x 216 fdc 데이터가 있어
+
+2. Wafer defect 이미지
+1059 x 128 x 128 wafer defect 이미지 데이터가 있어
+
+참고로 Wafer defect 판정 여부는 wafer defect이 외곽 부분에 몰려 있는지로 판단해
+단어로는 scratch라고 해
+
+1, 2번 데이터를 이용해서 딥러닝 모델을 학습 시키고 싶어
+1) FDC 데이터를 이용하여 Wafer defect 이미지 예측
+2) 예측한 Wafer defect 이미지 불량/정상 분류
+
+내가 데이터 셋을 train_test_split을 이용해 아래와 같이 나눴어
+fdc 데이터 (standardscaler 적용)
+fdc_train, fdc_val, fdc_test
+image 데이터 (normalization 적용)
+img_train, img_val, img_test
+
+이걸 딥러닝 모델로 구현하고 싶은데 어떻게 하면 좋을까?
+GAN 모델을 이용해서 파이썬으로 구현해줘
