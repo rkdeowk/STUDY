@@ -1,0 +1,348 @@
+내가 원하는건 논문 작성이야
+=========================================================================================
+1. FDC 데이터
+1060 x 221 fdc 데이터가 있어
+모두 숫자형 데이터야
+
+2. Wafer defect 이미지
+1060 x 128 x 128 wafer defect 이미지 데이터가 있어
+
+참고로 Wafer defect 판정 여부는 wafer defect이 외곽 부분에 몰려 있는지로 판단해
+단어로는 scratch라고 해
+
+1, 2번 데이터를 이용해서 딥러닝 모델을 학습 시켰어
+1) autoencoder를 이용한 wafer image 예측 및 cnn을 통한 이미지 정상/불량 판별
+2) autoencoder를 이용한 wafer iamge 예측 후 image data와 fdc data를 합쳐 분류 모델을 만든 후 이미지 정상/불량 판별
+
+=========================================================================================
+모델 코드
+1) 코드
+# # Encoder 모델: 입력 이미지를 잠재 공간으로 압축
+# def build_encoder(input_dim):
+#     model = tf.keras.Sequential()
+#     model.add(layers.Dense(256, input_dim=input_dim))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(512))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(1024))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(2048))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+
+    
+#     # 잠재 공간 (저차원 공간) 출력
+#     model.add(layers.Dense(64))  # 잠재 공간의 크기를 64로 설정
+    
+#     return model
+
+# # Decoder 모델: 잠재 공간에서 128x128 이미지를 복원
+# def build_decoder(latent_dim):
+#     model = tf.keras.Sequential()
+
+#     model.add(layers.Dense(2048))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(1024, input_dim=latent_dim))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(512))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+    
+#     model.add(layers.Dense(256))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+    
+#     # 128x128 이미지로 복원
+#     model.add(layers.Dense(128 * 128, activation='sigmoid'))  # 이미지 픽셀 값이 0-1 범위이므로 sigmoid 사용
+#     model.add(layers.Reshape((128, 128, 1)))
+    
+#     return model
+
+# # Autoencoder 모델: Encoder와 Decoder를 연결
+# def build_autoencoder(input_dim, latent_dim):
+#     encoder = build_encoder(input_dim)
+#     decoder = build_decoder(latent_dim)
+    
+#     inputs = layers.Input(shape=(input_dim,))
+#     encoded = encoder(inputs)
+#     decoded = decoder(encoded)
+    
+#     autoencoder = tf.keras.Model(inputs, decoded)
+#     autoencoder.compile(optimizer='adam', loss='mse')  # Autoencoder에서는 MSE(평균 제곱 오차)를 사용
+#     return autoencoder
+
+# # 하이퍼파라미터
+# tf.random.set_seed(SEED)
+# input_dim = fdc_train.shape[1]  # FDC 데이터의 차원
+# latent_dim = 64  # 잠재 공간의 크기
+# epochs = 1000
+# batch_size = 32
+
+# # 모델 빌드
+# autoencoder = build_autoencoder(input_dim, latent_dim)
+
+# # 학습 함수
+# def train_autoencoder(epochs, batch_size):
+#     autoencoder.fit(fdc_train, img_train, epochs=epochs, batch_size=batch_size, shuffle=True)
+
+# # Autoencoder 학습 시작
+# train_autoencoder(epochs, batch_size)
+
+# # 모델 저장
+# autoencoder.save(f'./data/model/autoencoder_model_{epochs}_original.keras')
+
+# # 외곽 부분을 마스킹하는 함수 정의 (원형 마스크 사용)
+# def create_edge_mask(image, radius):
+#     h, w = image.shape[:2]
+#     center = (int(w / 2), int(h / 2))
+#     max_radius = min(center) - 2  # 이미지 경계 안에 들어가도록 반지름 설정
+#     mask = np.zeros((h, w), dtype=np.uint8)  # 마스크를 8비트 정수로 생성
+    
+#     # 원형 마스크 생성 (두께는 외곽 영역의 범위를 조절)
+#     cv2.circle(mask, center, max_radius, 1, thickness=radius)  # 마스크 값 1로 설정
+#     return mask
+
+# # 이미지 데이터 (img_train을 불러온 상태라 가정)
+# image = img_train[0]  # 첫 번째 훈련 이미지 사용
+
+# # 다양한 radius 값으로 마스크를 생성하고 시각적으로 확인
+# radius_values = [1,5, 10, 15, 20, 50, 100]  # 다양한 반경 값을 설정
+# fig, axes = plt.subplots(1, len(radius_values), figsize=(15, 5))
+
+# for i, radius in enumerate(radius_values):
+#     # 마스크 생성
+#     mask = create_edge_mask(image, radius=radius)
+    
+#     # 마스크를 이미지에 적용하여 시각적으로 비교
+#     masked_image = cv2.bitwise_and(image.squeeze().astype(np.uint8), image.squeeze().astype(np.uint8), mask=mask)
+    
+#     # 이미지 출력
+#     axes[i].imshow(masked_image, cmap='gray')
+#     axes[i].set_title(f"Radius: {radius}")
+#     axes[i].axis('off')
+
+# plt.show()
+
+# # 외곽 부분을 마스킹하는 함수 정의 (원형 마스크 사용)
+# def create_edge_mask(image, radius=50):
+#     h, w = image.shape[:2]
+#     center = (int(w / 2), int(h / 2))
+#     max_radius = min(center) - 2  # 이미지 경계 안에 들어가도록 반지름 설정
+#     mask = np.zeros((h, w), dtype=np.uint8)  # 마스크를 uint8 형식으로 생성
+
+#     # 원형 마스크 생성 (두께는 외곽 영역의 범위를 조절)
+#     cv2.circle(mask, center, max_radius, 1, thickness=radius)  # 1로 채운 원형 마스크
+#     return mask
+
+# # 모든 이미지에 마스크 적용
+# def apply_mask_to_images(images, mask_radius=50):
+#     masked_images = []
+#     for image in images:
+#         mask = create_edge_mask(image.squeeze(), radius=mask_radius)
+        
+#         # 이미지가 0~1로 스케일링된 경우 0~255 범위로 변환
+#         image_uint8 = (image.squeeze() * 255).astype(np.uint8)
+        
+#         # 마스크 적용
+#         masked_image = cv2.bitwise_and(image_uint8, image_uint8, mask=mask)
+#         masked_images.append(masked_image)
+#     return np.array(masked_images)
+
+# # 훈련, 검증, 테스트 데이터 각각에 마스크 적용
+# masked_train = apply_mask_to_images(img_train)
+# masked_val = apply_mask_to_images(img_val)
+# masked_test = apply_mask_to_images(img_test)
+
+# # CNN 모델 생성
+# def build_edge_classification_model(input_shape):
+#     model = models.Sequential()
+    
+#     # Convolutional layer로 특징 추출
+#     model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=input_shape))
+#     model.add(layers.MaxPooling2D((2, 2)))
+#     model.add(layers.Conv2D(64, (3, 3), activation='relu'))
+#     model.add(layers.MaxPooling2D((2, 2)))
+#     model.add(layers.Conv2D(128, (3, 3), activation='relu'))
+#     model.add(layers.MaxPooling2D((2, 2)))
+    
+#     # Flatten하여 Dense Layer에 연결
+#     model.add(layers.Flatten())
+#     model.add(layers.Dense(128, activation='relu'))
+    
+#     # 이진 분류를 위한 출력층
+#     model.add(layers.Dense(1, activation='sigmoid'))  # 이진 분류
+    
+#     # 모델 컴파일
+#     model.compile(optimizer='adam',
+#                   loss='binary_crossentropy',
+#                   metrics=['accuracy'])
+    
+#     return model
+
+# # 입력 이미지의 크기 (128x128 크기의 흑백 이미지)
+# input_shape = (128, 128, 1)
+# cnn = build_edge_classification_model(input_shape)
+
+# epochs = 1000
+
+# # 훈련 데이터를 이용해 모델 학습
+# cnn.fit(masked_train, labels_train, 
+#           epochs=epochs, 
+#           batch_size=32, 
+#           validation_data=(masked_val, labels_val))
+
+# # 모델 저장
+# cnn.save(f'./data/model/cnn_model_{epochs}.keras')
+
+2번 코드
+# # Encoder 모델: 입력 Tabular 데이터를 잠재 공간으로 압축
+# def build_encoder(input_dim):
+#     model = tf.keras.Sequential()
+#     model.add(layers.Dense(256, input_dim=input_dim))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(512))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(1024))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(2048))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+
+#     # 잠재 공간 출력
+#     model.add(layers.Dense(64))  # 잠재 공간의 크기를 64로 설정
+    
+#     return model
+
+# # Decoder 모델: 잠재 공간에서 128x128 이미지를 복원
+# def build_decoder(latent_dim):
+#     model = tf.keras.Sequential()
+
+#     model.add(layers.Dense(2048, input_dim=latent_dim))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(1024))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+#     model.add(layers.BatchNormalization(momentum=0.8))
+    
+#     model.add(layers.Dense(512))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+    
+#     model.add(layers.Dense(256))
+#     model.add(layers.LeakyReLU(alpha=0.2))
+    
+#     # 128x128 이미지로 복원
+#     model.add(layers.Dense(128 * 128, activation='sigmoid'))
+#     model.add(layers.Reshape((128, 128, 1)))
+    
+#     return model
+
+# # Autoencoder 모델: Encoder와 Decoder를 연결
+# def build_autoencoder(input_dim, latent_dim):
+#     encoder = build_encoder(input_dim)
+#     decoder = build_decoder(latent_dim)
+    
+#     inputs = layers.Input(shape=(input_dim,))
+#     encoded = encoder(inputs)
+#     decoded = decoder(encoded)
+    
+#     autoencoder = tf.keras.Model(inputs, decoded)
+#     autoencoder.compile(optimizer='adam', loss='mse')
+#     return autoencoder
+
+# def build_classification_model(input_dim, latent_dim):
+#     autoencoder = build_autoencoder(input_dim, latent_dim)
+   
+#     # Tabular 데이터를 위한 입력
+#     tabular_input = layers.Input(shape=(input_dim,))
+#     # AutoEncoder로 생성된 이미지
+#     decoded_image = autoencoder(tabular_input)
+    
+#     # 분류 목적의 새로운 피처 추출 레이어 추가
+#     feature_extraction = layers.Dense(512, activation='relu')(tabular_input)
+#     feature_extraction = layers.BatchNormalization()(feature_extraction)
+#     feature_extraction = layers.Dense(256, activation='relu')(feature_extraction)
+#     feature_extraction = layers.BatchNormalization()(feature_extraction)
+    
+#     # AutoEncoder 이미지와 새로운 피처 추출 레이어를 결합
+#     flat_image = layers.Flatten()(decoded_image)
+#     concat_features = layers.concatenate([feature_extraction, flat_image])
+    
+#     # Classification Layer
+#     x = layers.Dense(512, activation='relu')(concat_features)
+#     x = layers.BatchNormalization()(x)
+#     x = layers.Dense(256, activation='relu')(x)
+#     x = layers.BatchNormalization()(x)
+    
+#     output = layers.Dense(1, activation='sigmoid')(x)  # 이진 분류를 가정
+    
+#     model = tf.keras.Model(inputs=tabular_input, outputs=output)
+#     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
+    
+#     return model, autoencoder
+
+# # 하이퍼파라미터
+# tf.random.set_seed(SEED)
+# input_dim = fdc_train.shape[1]  # FDC 데이터의 차원
+# latent_dim = 64  # 잠재 공간의 크기
+# epochs = 1000
+# batch_size = 32
+
+# # 모델 빌드 및 학습
+# classification_model, autoencoder = build_classification_model(input_dim, latent_dim)
+
+# # AutoEncoder 학습
+# autoencoder.fit(fdc_train, img_train, epochs=epochs, batch_size=batch_size, shuffle=True)
+
+# # 분류 모델 학습
+# classification_model.fit(fdc_train, labels_train, epochs=epochs, batch_size=batch_size, shuffle=True)
+
+# # 모델 저장
+# autoencoder.save(f'./data/model/autoencoder_model_{epochs}.keras')
+# classification_model.save(f'./data/model/classification_model_{epochs}.keras')
+=========================================================================================
+아래 서순으로 논문 작성해줘
+
+주제 
+
+1. 서론 
+웨이퍼 필름을 장착 과정 설명 
+이 때 발생할 수 있는 문제점, 왜 발생하는지에 대한 설명
+불량을 발견하는 것의 중요성
+기존에는 공정이 끝난 후 얻을 수 있는 이미지를 통해 불량에 대한 판별을 수행하였음. 그리고 샘플에 대해서만 이미지를 확인할 수 있었음
+정형데이터를 이미지로 맵핑하는 생성모델을 학습시켜 불량을 조기에 탐지하고자함
+이미지로 변환하는 이유는 사람이 더 쉬운 결정을 내릴 수 있고, 추후 다른 공정에도 확대적용하여 전이학습에도 용이함
+
+2. 관련 연구
+2.1 웨이퍼 불량 감지 관련 연구 내용
+2.2 오토인코더
+2.3 분류 모델
+
+3. 방법론
+3.1 생성 모델
+3.2 분류 모델
+3.2.1 standard
+3.2.2. Multimodal
+
+4. 실험
+4.1 데이터셋
+4.2 Implementation details
+4.3 실험 결과
+4.4 실험 분석
+
+5. 결론
+
